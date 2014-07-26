@@ -12,12 +12,12 @@ import android.support.v8.renderscript.ScriptIntrinsicBlend;
 import at.favre.app.blurbenchmark.blur.EBlurAlgorithm;
 import at.favre.app.blurbenchmark.blur.algorithms.BoxBlur;
 import at.favre.app.blurbenchmark.blur.algorithms.GaussianFastBlur;
-import at.favre.app.blurbenchmark.blur.algorithms.NdkStackBlur;
 import at.favre.app.blurbenchmark.blur.algorithms.RenderScriptBox5x5Blur;
 import at.favre.app.blurbenchmark.blur.algorithms.RenderScriptGaussian5x5Blur;
 import at.favre.app.blurbenchmark.blur.algorithms.RenderScriptGaussianBlur;
 import at.favre.app.blurbenchmark.blur.algorithms.RenderScriptStackBlur;
 import at.favre.app.blurbenchmark.blur.algorithms.StackBlur;
+import ru0xdc.NdkStackBlur;
 
 /**
  * Created by PatrickF on 07.04.2014.
