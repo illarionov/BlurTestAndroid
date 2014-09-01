@@ -23,12 +23,6 @@ android {
         versionName "1.05"
         renderscriptTargetApi 19
         renderscriptSupportMode true
-
-        ndk {
-            moduleName "libblur"
-            cFlags "-fvisibility=hidden -W -Wall -ffast-math -O3 -funroll-loops"
-            ldLibs "log", "jnigraphics"
-        }
     }
 
     buildTypes {
@@ -62,6 +56,7 @@ dependencies {
     compile project(':tablefixedheader')
 //    compile project(':paralloid')
     compile project(':ne10blur')
+    compile project(':ndkstackblur')
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
